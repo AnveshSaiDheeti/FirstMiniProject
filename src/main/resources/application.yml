@@ -1,0 +1,24 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ashokit
+    url: jdbc:h2:mem:testdb
+    username: ashokit
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+plan-api:
+ messages:
+  planSaveSucc: plan saved successfully
+  planSaveFail: plan saved Failed
+  planCatSaveSucc: plan Category saved successfully
+  planCatSaveFail: plan Category saved Failed
+  planUpdateSucc: plan updated successfully
+  planUpdateFail: plan updated Failed
+  statusChangeSucc: plan StatusChanged successfully
+  statusChangeFail: plan StatusChanged Failed
+  planDeleteSucc: plan Deleted successfully
+  planDeleteFail: plan Deleted Failed
+  
