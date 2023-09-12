@@ -12,7 +12,7 @@ spring:
 plan-api:
  messages:
   planSaveSucc: plan saved successfully
-  planSaveFail: plan saved Faild
+  planSaveFail: plan saved Failed
   planCatSaveSucc: plan Category saved successfully
   planCatSaveFail: plan Category saved Failed
   planUpdateSucc: plan updated successfully
